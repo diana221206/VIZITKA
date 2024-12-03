@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana Babaian Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">safter.di</div>
+            <nav class="nav-links">
+                <a href="#">Blog</a>
+                <a href="#">Post</a>
+                <button id="theme-toggle" class="theme-toggle"> <img src="images/sun.svg" alt="Theme-toogle" class="theme-toogle-svg"></button>
+            </nav>
+        </header>
+        
+        <div class="profile">
+            <img src="images/photo.png" alt="Diana Babaian" class="profile-image">
+            <h1>Diana Babaian</h1>
+            <div class="social-links">
+                <a href="https://t.me/rexauzz"><img src="images/telegram.svg" alt="telegram-logo" class="social-logo">Telegram</a>
+                <a href="https://www.instagram.com/safter.di/"><img src="images/instagram.svg" alt="instagram-logo" class="social-logo">Instagram</a>
+                <a href="https://github.com/diana221206"><img src="images/github.svg" alt="github-logo" class="social-logo">GitHub</a>
+            </div>
+        </div>
+
+        <div class="section_about">
+            <h2>About me</h2>
+            <p class="right_column">My name is Diana, I'm 17 years old, I'm from Odessa, Ukraine. I create modern and aesthetic designs that will help make your project recognizable and memorable.</p>
+        </div>
+
+        <div class="section_education">
+            <h2>Education</h2>
+            <div class="card">
+                <h3>IT Step Academy</h3>
+                <p>Studying at IT Step Academy provided deep knowledge and practical skills in "graphic design". The program included learning modern technologies and completing hands-on projects. The acquired knowledge fostered critical thinking, problem-solving abilities, and teamwork skills.</p>
+            </div>
+        </div>
+
+        <div class="section_skills">
+            <h2 class="row-skills">Skills</h2>
+            <div class="row-skills">
+            <h3 class="skill">Languages</h3>
+            <h3 class="skill">Interface Design</h3>
+            <h3 class="skill">Graphic Design</h3>
+            </div>
+            <div class="row-skills">
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+            <div class="tags">
+                <span>Figma</span>
+                <span>Adobe XD</span>
+                <span>Adobe Illustrator</span>
+            </div>
+            <div class="tags">
+                <span>Adobe Photoshop</span>
+                <span>CapCut</span>
+                <span>Adobe After Effects</span>
+            </div>
+        </div>
+        </div>
+
+        <div class="section_education">
+            <h2>Certification</h2>
+            <div class="card">
+                <h3>IT Step Academy</h3>
+                <p>Studying at IT Step Academy provided deep knowledge and practical skills in "graphic design". The program included learning modern technologies and completing hands-on projects. The acquired knowledge fostered critical thinking, problem-solving abilities, and teamwork skills.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Diana Babaian</p>
+        <div class="links_footer">
+            <a href="https://t.me/rexauzz"><img src="images/telegram.svg" alt="telegram-logo" class="social-logo-footer"></a>
+            <a href="https://www.instagram.com/safter.di/"><img src="images/instagram.svg" alt="instagram-logo" class="social-logo-footer"></a>
+            <a href="https://github.com/diana221206"><img src="images/github.svg" alt="github-logo" class="social-logo-footer"></a>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const themeToggleButton = document.getElementById("theme-toggle");
+            const body = document.body;
+    
+            themeToggleButton.addEventListener("click", () => {
+                body.classList.toggle("dark-theme");
+            });
+        });
+    </script>
+</body>
+</html>
